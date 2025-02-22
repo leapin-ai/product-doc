@@ -1,0 +1,108 @@
+<h1>AI Agent</h1>
+<p>Welcome to the AI Recruiting Agent platform that will transform your hiring process.</p>
+<p>You've got two options: either pick an agent from the marketplace or build your own custom one.</p>
+<p><img src="../../assets/en/img_20.png" alt="image.png" /></p>
+<p>To create your own agent, simply fill in the required information: give it a name, specify its role, and provide a detailed description of what you want the agent to do and its goals.</p>
+<p><img src="../../assets/en/img_21.png" alt="image.png" /></p>
+<h2>Agent skills:</h2>
+<p>Specify the skills you want your agent to have</p>
+<p><img src="../../assets/en/img_22.png" alt="image.png" /></p>
+<h2><strong>Prompt:</strong></h2>
+<p>A prompt is a set of instructions or guidelines that you provide to your AI agent to define how it should behave and respond. It's like giving your agent a specific script or playbook to follow.</p>
+<p><strong>Key Elements of a Good Prompt:</strong></p>
+<ul>
+<li><strong>Clear Role Definition:</strong> Explicitly state what role the agent should assume (e.g., &quot;You are a technical recruiter specializing in software engineering positions&quot;)</li>
+<li><strong>Context Setting:</strong> Provide relevant background information and constraints the agent should work within</li>
+<li><strong>Specific Tasks:</strong> Detail the exact tasks you want the agent to perform</li>
+<li><strong>Output Format:</strong> Specify how you want the agent to structure its responses</li>
+<li><strong>Boundaries:</strong> Define what the agent should and shouldn't do</li>
+</ul>
+<p><strong>Example Prompt Structure:</strong></p>
+<pre class="hljs"><code>Role: You are [specific role]
+Context: You are working in [specific context]
+Tasks: Your responsibilities include:
+1. [Task 1]
+2. [Task 2]
+3. [Task 3]
+Output: Provide your responses in [specified format]
+Constraints: [List any limitations or boundaries]
+</code></pre>
+<p>Remember to be as specific and detailed as possible in your prompt to get the best results from your AI agent.</p>
+<p><img src="../../assets/en/img_23.png" alt="image.png" /></p>
+<h2>Workflow :</h2>
+<p>A workflow defines the step-by-step process your AI agent will follow to accomplish its tasks. Here's how to structure it:</p>
+<p><strong>1. Define Trigger Points</strong></p>
+<ul>
+<li>Specify what initiates the workflow (user input, scheduled time, specific events)</li>
+<li>Define the entry conditions that must be met</li>
+</ul>
+<p><strong>2. Sequential Steps</strong></p>
+<ul>
+<li>Break down the process into clear, logical steps</li>
+<li>Number or order the steps chronologically</li>
+<li>Include decision points and conditional branches</li>
+</ul>
+<p><strong>3. Data Flow</strong></p>
+<ul>
+<li>Outline how information moves between steps</li>
+<li>Specify input requirements and output formats</li>
+<li>Define data validation rules</li>
+</ul>
+<p><strong>4. Error Handling</strong></p>
+<ul>
+<li>Include fallback options for each critical step</li>
+<li>Define error messages and recovery procedures</li>
+<li>Specify when to escalate to human intervention</li>
+</ul>
+<p><strong>Example Workflow Structure:</strong></p>
+<pre class="hljs"><code><span class="hljs-title class_">Workflow</span> <span class="hljs-title class_">Name</span>: [<span class="hljs-title class_">Name</span>]
+<span class="hljs-title class_">Trigger</span>: [<span class="hljs-title class_">What</span> starts the process]
+
+<span class="hljs-title class_">Step</span> <span class="hljs-number">1</span>: [<span class="hljs-title class_">Initial</span> <span class="hljs-title class_">Action</span>]
+- <span class="hljs-title class_">Input</span> <span class="hljs-attr">required</span>: [<span class="hljs-title class_">Specify</span>]
+- <span class="hljs-title class_">Processing</span>: [<span class="hljs-title class_">Details</span>]
+- <span class="hljs-title class_">Output</span>: [<span class="hljs-title class_">Expected</span> result]
+- <span class="hljs-title class_">Error</span> <span class="hljs-attr">handling</span>: [<span class="hljs-title class_">What</span> to <span class="hljs-keyword">do</span> <span class="hljs-keyword">if</span> step fails]
+
+<span class="hljs-title class_">Step</span> <span class="hljs-number">2</span>: [<span class="hljs-title class_">Next</span> <span class="hljs-title class_">Action</span>]
+[<span class="hljs-title class_">Continue</span> <span class="hljs-keyword">with</span> same structure]
+
+<span class="hljs-title class_">Decision</span> <span class="hljs-title class_">Point</span>:
+<span class="hljs-title class_">If</span> [condition] → <span class="hljs-title class_">Go</span> to <span class="hljs-title class_">Step</span> 3a
+<span class="hljs-title class_">If</span> [alternative] → <span class="hljs-title class_">Go</span> to <span class="hljs-title class_">Step</span> 3b
+
+<span class="hljs-title class_">Final</span> <span class="hljs-title class_">Step</span>: [<span class="hljs-title class_">Completion</span>]
+- <span class="hljs-title class_">Success</span> <span class="hljs-attr">criteria</span>: [<span class="hljs-title class_">Define</span>]
+- <span class="hljs-title class_">Output</span> <span class="hljs-attr">delivery</span>: [<span class="hljs-title class_">Specify</span> format/destination]
+</code></pre>
+<p><img src="../../assets/en/img_24.png" alt="image.png" /></p>
+<h2>Knowledge</h2>
+<p>The knowledge base is the foundation of your AI agent's expertise and capabilities. It represents all the information and data your agent can access and use to perform its tasks effectively.</p>
+<p><strong>Components of Knowledge Base:</strong></p>
+<ul>
+<li><strong>Core Knowledge:</strong> Essential information and facts relevant to the agent's role and industry</li>
+<li><strong>Domain-Specific Data:</strong> Specialized information related to the agent's specific function</li>
+<li><strong>Rules and Guidelines:</strong> Operating procedures and decision-making frameworks</li>
+<li><strong>Historical Data:</strong> Past interactions and outcomes for learning and reference</li>
+</ul>
+<p>The effectiveness of your AI agent largely depends on the quality and organization of its knowledge base. Regular updates and maintenance ensure optimal performance.</p>
+<p><img src="../../assets/en/img_25.png" alt="image.png" /></p>
+<h2>Agent info</h2>
+<p>Here you can revise your agent info, After filling out everything, click &quot;Publish&quot; to make your agent live.</p>
+<p><img src="../../assets/en/img_26.png" alt="image.png" /></p>
+<h2>Applicants</h2>
+<p>Here you can view all applicants from platforms like JobsDB, LinkedIn, and other job portals. You can track their application stage, status, and review chat histories. Need to send another AI invitation? Simply click the &quot;...&quot; menu to resend.</p>
+<p><img src="../../assets/en/img_27.png" alt="image.png" /></p>
+<ol>
+<li>Test Chat: This section allows you to test your AI recruiting agent.</li>
+<li>Invite: Use this option to invite new applicants from other channels to start an AI conversation.</li>
+</ol>
+<p><img src="../../assets/en/img_28.png" alt="image.png" /></p>
+<h2>Chat History</h2>
+<p>The chat history record the running status of the application, including user inputs and AI replies.</p>
+<p><img src="../../assets/en/img_29.png" alt="image.png" /></p>
+<p>Remember, you can always modify and optimize your AI recruiting agent's settings as you learn what works best for your recruitment needs.</p>
+<p>For additional support or questions, reach out to our customer service team who are ready to help you make the most of your AI recruiting experience.</p>
+<p>Let’s LeapIn to your Future Together!</p>
+<p>Warm Regards!</p>
+<p>LeapIn Team</p>
